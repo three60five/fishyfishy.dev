@@ -1,0 +1,26 @@
+// Page 5
+
+.page5 {
+    background: linear-gradient(to right, #16A085, #42a1c6);
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+}
+
+.page5 .pagecontainer {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.page5 .words {
+    order: 2;
+    font-size: 6vh;
+}
+
+.page5 .fish {
+    order: 1;
+    transform: rotate(-80deg);
+}

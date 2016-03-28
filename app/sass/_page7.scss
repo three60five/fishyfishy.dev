@@ -1,0 +1,38 @@
+// Page 7
+
+.page7 {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.page7 .pagecontainer {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page7 .water {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    order: 2;
+    background: linear-gradient(to top, #2a5298 , #42a1c6);
+}
+
+.page7 .words {
+    font-size: 6vh;
+}
+
+
+.page7 .fish {
+    order: 1;
+    height: 30%;
+    transform: rotate(70deg);
+}

@@ -1,0 +1,38 @@
+// Page 6
+
+.page6 {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.page6 .pagecontainer {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page6 .water {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    order: 2;
+    background: linear-gradient(to top, #2a5298 , #42a1c6);
+}
+
+.page6 .words {
+    text-align: center;
+    font-size: 6vh;
+}
+
+.page6 .fish {
+    order: 1;
+    height: 30%;
+    transform: rotate(-30deg);
+}

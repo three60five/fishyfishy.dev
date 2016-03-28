@@ -1,0 +1,31 @@
+// Cover Slide
+
+.coverslide {
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.coverslide .pagecontainer {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coverslide .fish {
+    order: 1;
+}
+
+.title {
+    order: 2;
+    font-size: 12vw;
+}
+
+.bylines {
+    order: 3;
+    font-size: 4vw;
+    text-align: center;
+}

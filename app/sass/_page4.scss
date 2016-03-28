@@ -1,0 +1,26 @@
+// Page 4
+
+.page4 {
+    background: linear-gradient(to right, #F4D03F, #16A085);
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+}
+
+.page4 .pagecontainer {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.page4 .words {
+    order: 2;
+    font-size: 6vh;
+}
+
+.page4 .fish {
+    order: 1;
+    transform: rotate(-90deg);
+}

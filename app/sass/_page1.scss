@@ -1,0 +1,20 @@
+// Page 1
+
+.page1 {
+    background: linear-gradient(to right, #1e3c72, #43cea2);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.page1 .pagecontainer {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page1 .words {
+    font-size: 6vh;
+}
